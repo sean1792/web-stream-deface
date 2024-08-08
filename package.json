@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@longlost/webgl-filter": "^1.1.0",
+    "mpegts.js": "^1.7.3",
+    "nuxt": "^3.12.4",
+    "onnxruntime-web": "^1.18.0",
+    "stackblur-canvas": "^2.7.0",
+    "vue": "latest",
+    "vue-worker": "^1.2.1"
+  }
+}
